@@ -1,0 +1,36 @@
+<section class="contact-us-wrapper">
+	<h4>Contact us</h4>
+	<div class="contact-telephone-wrapper">
+		<i class="sprite telephone-icon"></i>
+		<span>Tel</span>
+	</div>
+	<div class="contact-us-details">
+		<div class="pull-left">
+			<b>USA:</b><br>
+			1-888-235-0025<br>
+			1-212-444-1536
+		</div>
+		<div class="pull-right">
+			<b>ISRAEL:</b><br>
+			+972(0)2-654-0740
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="contact-email-wrapper">
+		<i class="sprite email-icon"></i>
+		<span>Email</span>
+	</div>
+	<a class="contact-us-link" href="mailto:info@israelonthehouse.com">info@israelonthehouse.com</a>
+	<h4>Anything you want to ask us?</h4>
+	<form data-ng-submit="next()">
+		<input type="text" required   data-ng-model="firstName" placeholder="First Name">
+		<input type="text" required   data-ng-model="lastName" placeholder="Last Name">
+		<input type="email" required  data-ng-model="email" placeholder="Email Address">
+		<input type="text" required data-ng-model="subejct" placeholder="Subject">
+		<textarea data-ng-model="message" placeholder="Message"></textarea>
+		<button type="submit" value="send" class="signup-button pull-right">
+			Send
+		</button>
+		<div class="clearfix"></div>
+	</form>
+</section>

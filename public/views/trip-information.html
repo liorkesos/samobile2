@@ -1,0 +1,59 @@
+<section data-ng-controller="TripInformationController" class="page-container">
+	<h2>Trip Information</h2>
+	<div class="mean-accordion mean-accordion-floating">
+		<div class="mean-accordion-group">
+			<a class="mean-accordion-group-header" id="mean-accordion-group-header-0" href="#!/trip-options">
+				<div class="mean-accordion-group-header-icon-wrapper">
+					<i class="sprite calendar-icon"></i>
+				</div>
+				Trip options and dates
+			</a>
+    	</div>
+    	<div class="mean-accordion-group">
+			<a class="mean-accordion-group-header" data-ng-class="{'mean-accordion-group-header-open': isGroupContentOpen1}" id="mean-accordion-group-header-1" data-ng-click="isGroupContentOpen1 = !isGroupContentOpen1">
+				<div class="mean-accordion-group-header-icon-wrapper">
+					<i class="sprite itinerary-icon"></i>
+				</div>
+				Itenereies
+			</a>
+			<div class="mean-accordion-group-content animated" data-ng-class="{'mean-accordion-group-content-open': isGroupContentOpen1}">
+				<ul class="mean-accordion-group-content-links">
+					<li><a href="#!/young-professionals">Young Proffesional Trips</a></li>
+					<li><a href="#!/students-trips">Students Trips</a></li>
+				</ul>
+			</div>
+    	</div>
+		<div class="mean-accordion-group">
+			<a class="mean-accordion-group-header" id="mean-accordion-group-header-2" href="#!/photos">
+				<div class="mean-accordion-group-header-icon-wrapper">
+					<i class="sprite photos-icon"></i>
+				</div>
+				Photos
+			</a>
+    	</div>
+		<div class="mean-accordion-group">
+			<a class="mean-accordion-group-header" id="mean-accordion-group-header-3" href="#!/register">
+				<div class="mean-accordion-group-header-icon-wrapper">
+					<i class="sprite register-icon"></i>
+				</div>
+				How To Register
+			</a>
+    	</div>
+		<div class="mean-accordion-group">
+			<a class="mean-accordion-group-header" id="mean-accordion-group-header-4" href="#!/eligibility">
+				<div class="mean-accordion-group-header-icon-wrapper">
+					<i class="sprite eligibility-icon"></i>
+				</div>
+				Eligibility
+			</a>
+    	</div>
+		<div class="mean-accordion-group">
+			<a class="mean-accordion-group-header" id="mean-accordion-group-header-5" href="#!/trip-extensions">
+				<div class="mean-accordion-group-header-icon-wrapper">
+					<i class="sprite trip-extensions-icon"></i>
+				</div>
+				Trip Extensions
+			</a>
+    	</div>
+    </div>
+</section>

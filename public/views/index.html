@@ -1,0 +1,77 @@
+<section data-ng-controller="IndexController" data-ng-init="init()" data-ng-show="content">
+    <div class="picture">
+        <div class="signup-button-wrapper">
+            <a class="signup-button" href="#!/signup">
+                <span class="signup-title">{{content.signupbutton}}</span> 
+                <span class="signup-text">{{content.signuptext}}</span>
+            </a>
+        </div>
+        <div class="pic-sign">{{content.picsign}}</div>
+    </div>
+    <div class="text-content">
+        <div class="left-text-content">
+            <h5 class="purple-title">{{content.whatstitle}}</h5>
+            <p class="text-container">
+                <span data-ng-editable="update()" data-ng-editable-model="content.whatsp1"></span>
+            </p>
+            <br/>
+            <p class="text-container">
+                {{content.whatsp2}}
+            </p>
+        </div>
+        <div class="right-text-content">
+            <h5 class="purple-title">Why Us?</h5>
+            <ul>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Student Trips</p> 
+                </li>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Young Professional Trips</p> 
+                </li>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Awesome itinerary</p> 
+                </li>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Loads of dates</p> 
+                </li>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Free time & nights out</p> 
+                </li>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Non affiliated</p> 
+                </li>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Extension options</p> 
+                </li>
+                <li> 
+                    <i class="sprite list-item-icon"></i>
+                    <p class="list-item-text">Free wifi on bus</p>              
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="buttom-text-content">
+            <br/>
+            <p class="text-container">
+These trips are funded by the Government of Israel, Jewish philanthropists, and federations whose common goal is to give every young Jew the opportunity to see and experience the Land of Israel. 
+            </p> <br/>
+            <p class="text-container">
+That’s where IsraelontheHouse comes in.  Being one of the largest, and longest running organizers of Birthright Israel trips, IsraelontheHouse has brought over 15,000 young adults to Israel in the last 13 years. 
+            </p> <br/>
+            <p class="text-container">
+Over this time we’ve mastered the perfect combination of adventure and exploration, and put together an out of this world itinerary which allows you to travel Israel from North to South, explore your history, and form lifelong connections with the land of Israel.
+            </p> <br/>
+<p class="text-container">
+This mind blowing journey is something we wish to share with every Jewish young adult. No matter your affiliation or level of observance, we see diversity as a source of strength, and welcome you to join us on a 10 day adventure of a lifetime!
+            </p> <br/>
+            <p class="last-reamark">This trip is a gift from  Taglit-Birthright Israel</p>                    
+        </div>                
+    </div>
+</section>

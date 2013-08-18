@@ -1,0 +1,20 @@
+<h2>Invite your friends to travel with you</h2>
+<form data-ng-submit="addInvitee()">
+	<input type="text" required   data-ng-model="inviteeFirstName" placeholder="First Name">
+	<input type="text" required   data-ng-model="inviteeLastName" placeholder="Last Name">
+	<input type="email" required  data-ng-model="inviteeEmail" placeholder="Email Address">
+	<input type="number" required data-ng-model="inviteePhone" placeholder="Phone Number">
+	<input type="submit" value="Add Another" class="add-button pull-right">
+	<div class="clearfix"></div>
+	<ul class="invitee-container">
+		<li data-ng-repeat="invitee in invitees">
+			<input type="button" class="remove-invitee-button" data-ng-click="removeInvitee(invitee)">
+			<span class="invitee-name">{{invitee.firstName}} {{invitee.lastName}}</span>
+		</li>
+	</ul>
+	<div class="clearfix"></div>
+	<button class="signup-button pull-right" data-ng-click="send()">
+		Send
+	</button>
+	<div class="clearfix"></div>
+</form>

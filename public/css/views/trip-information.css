@@ -1,0 +1,47 @@
+.calendar-icon {
+	display: inline-block;
+	background-position: -214px -99px;
+	width: 21px;
+	height: 24px;
+	vertical-align: middle;
+}
+
+.itinerary-icon {
+	display: inline-block;
+	background-position: -81px -41px;
+	width: 19px;
+	height: 24px;
+	vertical-align: middle;
+}
+
+.photos-icon {
+	display: inline-block;
+	background-position: -118px -65px;
+	width: 28px;
+	height: 22px;
+	vertical-align: middle;
+}
+
+.register-icon {
+	display: inline-block;
+	background-position: -5px -41px;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.eligibility-icon {
+	display: inline-block;
+	background-position: -51px -5px;
+	width: 20px;
+	height: 27px;
+	vertical-align: middle;
+}
+
+.trip-extensions-icon {
+	display: inline-block;
+	background-position: -182px -71px;
+	width: 23px;
+	height: 22px;
+	vertical-align: middle;
+}

@@ -1,0 +1,233 @@
+/***
+* the main picture and its design 
+*/
+h1,h2 {
+	color: #784082;
+	font-family: 'Handlee', cursive;
+	font-weight: normal;
+}
+/*a {
+	color: gray;
+	text-decoration: none;
+	font: normal 20px Handlee;
+}*/
+.picture {
+	position: relative;
+	display: block;
+	height: 220px;
+	background: url(../../img/content/camelride.jpg);
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
+.signup-button-wrapper {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	left: 0;
+}
+
+.cancel-button {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	width: 157px;
+	height: 34px;
+	border:1px solid #908B00;
+	font-family: sans-serif, helvetica, arial; 
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-border-radius: 10px; -moz-border-radius:10px;border-radius: 10px;
+	text-shadow: 0 1px 0 #C66100;
+
+	border-color: rgb(0, 0, 0);
+	text-shadow: 0 2px 0 rgb(0, 0, 0);
+	background-color: #8A8A8A; background-image: -webkit-gradient(linear, top, bottom, from(#8A8A8A 20%), to(#343434 80%));
+	background-image: -webkit-linear-gradient(top, #8A8A8A 20%, #343434 80%);
+	background-image: -moz-linear-gradient(top, #8A8A8A 20%, #343434 80%);
+	background-image: -ms-linear-gradient(top, #8A8A8A 20%, #343434 80%);
+	background-image: -o-linear-gradient(top, #8A8A8A 20%, #343434 80%);
+    background-image: linear-gradient(to bottom, #8A8A8A 20%, #343434 80%);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E8DD00, endColorstr=#DCAA00);
+}
+
+.add-button {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	width: 157px;
+	height: 34px;
+	border:1px solid #908B00;
+	font-family: sans-serif, helvetica, arial; 
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-border-radius: 10px; -moz-border-radius:10px;border-radius: 10px;
+	text-shadow: 0 1px 0 #C66100;
+
+	border-color: #16001B;
+	text-shadow: 0 2px 0 rgb(0, 0, 0);
+	background-color: #8B4995; background-image: -webkit-gradient(linear, top, bottom, from(#8B4995 20%), to(#343434 90%));
+	background-image: -webkit-linear-gradient(top, #8B4995 20%, #321039 90%);
+	background-image: -moz-linear-gradient(top, #8B4995 20%, #321039 90%);
+	background-image: -ms-linear-gradient(top, #8B4995 20%, #321039 90%);
+	background-image: -o-linear-gradient(top, #8B4995 20%, #321039 90%);
+	background-image: linear-gradient(to bottom, #8B4995 20%, #321039 90%);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E8DD00, endColorstr=#DCAA00);
+}
+
+.signup-button {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	width: 157px;
+	height: 34px;
+	border:1px solid #908B00;
+	font-family: sans-serif, helvetica, arial; 
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-border-radius: 10px; -moz-border-radius:10px;border-radius: 10px;
+	text-shadow: 0 1px 0 #C66100;	
+	
+	background: #ebe800; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ebe800 0%, #ddab00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebe800), color-stop(100%,#ddab00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ebe800 0%,#ddab00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ebe800 0%,#ddab00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ebe800 0%,#ddab00 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ebe800 0%,#ddab00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe800', endColorstr='#ddab00',GradientType=0 ); /* IE6-9 */
+
+}
+
+.signup-button:active {
+	background: #eae102; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eae102 0%, #d58500 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eae102), color-stop(100%,#d58500)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eae102 0%,#d58500 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eae102 0%,#d58500 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eae102 0%,#d58500 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eae102 0%,#d58500 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eae102', endColorstr='#d58500',GradientType=0 ); /* IE6-9 */
+}
+
+.signup-title {
+	display: block;
+	font-size: 1.6em; 
+	margin-top: 5px;	
+	padding: 0; 
+}
+
+.signup-text {
+	margin: 0 auto;
+	display: block;
+	font-size: 0.85em;
+	padding: 0;
+}
+
+.pic-sign {
+	width: 163px;
+	position: relative;
+	padding: 3px 2px;
+	margin: 0;
+	left: 0;
+	top: 80px;
+	background-color: #8D00B6;
+	opacity: 0.9;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+	text-align: center;
+	color: #ffffff; 
+	font-weight: 100;
+	line-height: 1.5em;
+}
+/* start all the text blocks */
+.text-content {
+	font-size: 1em;
+	display: block;
+	position: relative;
+	background-image: url(../../img/backgrounds/background.jpg);
+	background-repeat: repeat;
+	padding: 10px 0;
+}
+
+.purple-title {
+	color: #783983;
+	font-style: italic;
+	font-weight: 600;
+	margin: 0 12px 6px 12px;
+	padding: 1px 0 5px 0;
+}
+
+.text-container {
+	margin: 0 12px;
+}
+
+.left-text-content ,.right-text-content {
+	width: 49%;
+	float: left;
+}
+.left-text-content {
+	
+}
+.right-text-content {
+	border-left: 1px solid #ccc;
+}
+
+.right-text-content ul {
+	list-style-type: none; 
+	margin: 0 12px;
+	padding: 0;	
+}
+
+.right-text-content ul li{
+	min-height: 20px;
+	margin: 2px 0;
+}
+
+.list-item-text {
+	padding: 0;
+	line-height: 20px;
+ 	margin:0 0 0 22px;
+}
+/***
+    using the bigger sprite and make it smaller (background-size) 
+    but you need cut the sprite from the smaller sprite file !!
+    This give you sharp and focus icons for mobile !!
+
+.sprite {	
+	background: url('../img/sprites/common@2x.png') no-repeat;
+	background-size: 240px 165px;
+} ***   */
+
+.list-item-icon {
+	display: inline-block;
+	background-position: -67px -133px;
+	width: 19px;
+	height: 20px;
+	float: left;
+}
+
+.last-reamark {
+	color:#A84CA7;
+	text-align: center;
+	margin-top: 10px;
+}
+
+button.top-signup {
+	height:20px;
+	padding:16px;
+}
+
+button.top-signup a{
+	color:#fff;
+}

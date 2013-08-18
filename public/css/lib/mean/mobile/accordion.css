@@ -1,0 +1,136 @@
+.mean-accordion-group-header {
+	display: block;
+	cursor: pointer;
+	/*font-family: 'Handlee', cursive;*/
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #000; 
+	line-height: 34px;
+	height: 36px;
+	color: #fff;
+	padding-left: 20px;	
+	box-shadow: 0 35px 60px 0 rgba(194,194,194,0.2) inset;
+}
+
+.mean-accordion-floating .mean-accordion-group {
+	margin: 10px 0;
+}
+
+.mean-accordion-floating .mean-accordion-group-header {
+	border-radius: 5px;
+	margin: 0 20px;	
+	padding-left: 10px;
+}
+
+.mean-accordion-floating .mean-accordion-group-header-open {
+	border-radius: 5px 5px 0 0;
+}
+
+.mean-accordion-group-header-icon-wrapper {
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 100%;
+}
+
+#mean-accordion-group-header-0{
+	background: #60236b;
+}
+
+#mean-accordion-group-header-1{
+	background: #6f3579;
+}
+
+#mean-accordion-group-header-2{
+	background: #854f78;
+}
+
+#mean-accordion-group-header-3{
+	background: #915c6f;
+}
+
+#mean-accordion-group-header-4{
+	background: #9e6b64;
+}
+
+#mean-accordion-group-header-5{
+	background: #b1825e;
+}
+
+#mean-accordion-group-header-6{
+	background: #c49756;
+}
+
+#mean-accordion-group-header-7{
+	background: #cea243;
+}
+
+#mean-accordion-group-header-8{
+	background: #deb53d;
+}
+
+#mean-accordion-group-header-9{
+	background: #e9c237;
+}
+
+.mean-accordion-group-content {
+	max-height: 0;
+	overflow: hidden;
+	text-align: left;
+	padding: 0 20px;	
+}
+
+.menu .mean-accordion-group-content {
+	padding: 0;
+}
+
+.mean-accordion-group-content ul { 
+	list-style: none;
+	margin: 0;
+}
+
+.mean-accordion-group-content-open {
+	max-height: 1000px; /* We use this to create animation with unknown height*/
+}
+
+ul.mean-accordion-group-content-links {
+	list-style: none;
+	margin: 0; 	
+}
+
+.mean-accordion-floating ul.mean-accordion-group-content-links {
+	list-style: none;
+	margin: 0 ; 
+	border: 1px solid #000;
+	border-top: 0;
+	border-radius: 0 0 5px 5px;
+	background: #fff;
+}
+
+ul.mean-accordion-group-content-links li {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 0.9em;
+}	 
+
+.mean-accordion-floating ul.mean-accordion-group-content-links li{
+	padding: 0 5px;
+}	 
+
+ul.mean-accordion-group-content-links li a:hover, ul.mean-accordion-group-content-links li a:focus {
+	color: #784082;
+}
+
+
+
+ul.mean-accordion-group-content-links li:not(:last-child) {
+	border-bottom: 1px solid #000;
+}
+
+.mean-accordion-group-content a.signup-button {
+	height: 24px;
+	line-height: 24px;
+	margin: 5px auto;
+}

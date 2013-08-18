@@ -1,0 +1,81 @@
+diff --git a/public/views/index.html b/public/views/index.html
+index 88a9d4a..21c5662 100755
+--- a/public/views/index.html
++++ b/public/views/index.html
+@@ -1,7 +1,7 @@
+ <section data-ng-controller="IndexController">
+     <div class="picture">
+         <div class="signup-button-wrapper">
+-            <a class="signup-button" href="">
++            <a class="signup-button" href="#!/signup">
+                 <span class="signup-title">sign up now</span> 
+                 <span class="signup-text">for more info</span>
+             </a>
+@@ -36,35 +36,31 @@
+             <ul>
+                 <li> 
+                     <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Student & Young Professional trips</p> 
++                    <p class="list-item-text">Excepteur sint occaecat cupidatat</p> 
+                 </li>
+                 <li> 
+                     <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Easy and assisted registration</p> 
++                    <p class="list-item-text">Excepteur sint occaecat cupidatat</p> 
+                 </li>
+                 <li> 
+                     <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Loads of trips year round</p> 
++                    <p class="list-item-text">Excepteur sint occaecat cupidatat</p> 
+                 </li>
+                 <li> 
+                     <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Awesome action packed itinerary</p> 
++                    <p class="list-item-text">Excepteur sint occaecat cupidatat</p> 
+                 </li>
+                 <li> 
+                     <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Free time & nights out</p> 
++                    <p class="list-item-text">Excepteur sint occaecat cupidatat</p> 
+                 </li>
+                 <li> 
+                     <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Non affiliated & open to all</p> 
++                    <p class="list-item-text">Excepteur sint occaecat cupidatat</p> 
+                 </li>
+                 <li> 
+                     <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Extension options & travel advice</p> 
+-                </li>
+-<li> 
+-                    <i class="sprite list-item-icon"></i>
+-                    <p class="list-item-text">Wifi on the bus to keep you in touch</p>              
++                    <p class="list-item-text">Excepteur sint occaecat cupidatat</p> 
+                 </li>
+             </ul>
+         </div>
+@@ -72,18 +68,15 @@
+         <div class="buttom-text-content">
+             <br/>
+             <p class="text-container">
+-These trips are funded by the Government of Israel, Jewish philanthropists, and federations whose common goal is to give every young Jew the opportunity to see and experience the Land of Israel. 
++                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p> <br/>
+             <p class="text-container">
+-That’s where IsraelontheHouse comes in.  Being one of the largest, and longest running organizers of Birthright Israel trips, IsraelontheHouse has brought over 15,000 young adults to Israel in the last 13 years. 
++                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </p> <br/>
+             <p class="text-container">
+-Over this time we’ve mastered the perfect combination of adventure and exploration, and put together an out of this world itinerary which allows you to travel Israel from North to South, explore your history, and form lifelong connections with the land of Israel.
+-            </p> <br/>
+-<p class="text-container">
+-This mind blowing journey is something we wish to share with every Jewish young adult. No matter your affiliation or level of observance, we see diversity as a source of strength, and welcome you to join us on a 10 day adventure of a lifetime!
+-            </p> <br/>
++                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
++            </p> 
+             <p class="last-reamark">This trip is a gift from  Taglit-Birthright Israel</p>                    
+         </div>                
+     </div>
+-</section>
++</section>
+\ No newline at end of file

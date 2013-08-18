@@ -1,0 +1,82 @@
+.contact-us-wrapper {
+	background: url(../../img/backgrounds/signup.jpg) repeat;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.contact-us-wrapper h4{
+	color: #fff;
+	font-family: 'Handlee', cursive;
+	text-align: center;
+}
+
+.contact-us-wrapper input[type="text"], .contact-us-wrapper input[type="email"], .contact-us-wrapper input[type="number"], .contact-us-wrapper textarea {
+	width: 100%;
+	height: 36px;
+	box-sizing: border-box;
+}
+
+.contact-us-wrapper textarea {
+	height: 80px;
+}
+
+.contact-us-wrapper input[type="button"], .contact-us-wrapper input[type="submit"] {
+	padding: 0 20px;
+}
+
+.contact-us-wrapper form {
+	margin: 10px 0;
+} 
+
+.contact-us-details {
+	padding: 0 20px;
+}
+
+.contact-telephone-wrapper ,
+.contact-email-wrapper {
+	border-radius: 5px;
+	box-shadow: 0 35px 60px 0 rgba(194,194,194,0.2) inset;
+	text-shadow: 0 1px 1px #000;
+	font-weight: bold;
+	font-size: 1.2em;
+	height: 25px;
+	line-height: 25px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.contact-telephone-wrapper {
+	background: #60236b;
+}
+
+.telephone-icon{
+	display: inline-block;
+	background-position: -156px -71px;
+	width: 16px;
+	height: 17px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.contact-email-wrapper {
+	background: #854f78;
+}
+
+.email-icon{
+	display: inline-block;
+	background-position: -81px -5px;
+	width: 19px;
+	height: 14px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+a.contact-us-link {
+	display: block;
+	width: auto;
+	line-height: 20px;
+	height: 20px;
+	font-size: 1.2em;
+	color: #fff;
+	text-align: center;
+}
