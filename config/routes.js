@@ -24,7 +24,14 @@ module.exports = function (app, passport, auth) {
   app.param('userId', users.user)
   // CMS save endpoint
   var cms = require('../app/controllers/cms')
-  app.post('/cms/update', auth.requiresLogin, cms.update)
+  app.get('/cms', cms.all);
+  app.post('/cms', auth.requiresLogin, cms.create);
+  app.get('/cms/:pageId', cms.show);
+  app.put('/cms/:pageId', auth.requiresLogin, auth.user.hasAuthorization, cms.update);
+  app.del('/cms/:pageId', auth.requiresLogin, auth.user.hasAuthorization, cms.destroy);
+
+    //Finish with setting up the articleId param
+  //app.param('pageId', cms.page);
   // home route
   var index = require('../app/controllers/index')
   app.get('/', index.render)

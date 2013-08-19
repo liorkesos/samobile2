@@ -22,27 +22,26 @@ exports.item = function(req, res, next, id) {
  * Create a article
  */
 exports.create = function(req, res) {
-    var article = new Article(req.body)
-    article.user = req.user
-    article.save()
-    res.jsonp(article)
+    var cms = new CMS(req.body)
+    cms.user = req.user
+    cms.save()
+    res.jsonp(cms)
 }
 
 /**
- * Update a article
+ * Update a page
  */
 exports.update = function(req, res) {
 	console.log(req.body);
 	console.log(req.url);
 	res.send('xx');
 
-   /* var article = req.article
-    article = _.extend(article, req.body)
+    var page = req.page;
+    page = _.extend(page, req.body)
 
-    article.save(function(err) {
-        res.jsonp(article)
+    page.save(function(err) {
+        res.jsonp(page)
     })
-*/
 
 }
 
@@ -50,14 +49,14 @@ exports.update = function(req, res) {
  * Delete an article
  */
 exports.destroy = function(req, res) {
-    var article = req.article
-    article.remove(function(err) {
+    var cms = req.cms
+    cms.remove(function(err) {
         if (err) {
             res.render('error', {
                 status: 500
             });
         } else {
-            res.jsonp(article);
+            res.jsonp(cms);
         }
     })
 }
@@ -66,5 +65,17 @@ exports.destroy = function(req, res) {
  * Show an article
  */
 exports.show = function(req, res) {
-    res.jsonp(req.article);
+    res.jsonp(req.page);
 }
+
+exports.all = function(req, res) {
+    CMS.find().sort('-created').populate('user').exec(function(err, pages) {
+        if (err) {
+            res.render('error', {
+                status: 500
+            });
+        } else {
+            res.jsonp(pages);
+        }
+    });
+};

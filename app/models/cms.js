@@ -12,6 +12,6 @@ var mongoose = require('mongoose')
  * User Schema
  */
 
-var CMSSchema = new Schema({});
-mongoose.model('CMS', CMSSchema);
+var CMS = new Schema({});
+mongoose.model('CMS', CMS);
 

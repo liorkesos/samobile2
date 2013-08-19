@@ -34,7 +34,7 @@ window.app.factory("CMS", function(Global, $resource) {
         		var srv =  $resource('cms/update/:page',  
         			{ page: JSON.stringify(_this.content[id]) } , {  //basically I'm passing this object to the server
         			update: {
-            			method: 'POST'
+            			method: 'PUT'
         			}
     			});
     			srv.update();
